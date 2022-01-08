@@ -1,9 +1,9 @@
 let sec = 00;
 let tens = 00;
 let minute = 00;
-let ss
 
-const back = document.querySelector(".ds");
+
+
 const minutes = document.querySelector(".min");
 const dsec = document.querySelector(".sec");
 const dtens = document.querySelector(".tens");
@@ -14,7 +14,7 @@ let interval;
 
 
 
-function startTimer(minute) {
+function startTimer() {
     tens++;
     if (tens < 9) {
         dtens.innerHTML = "0" + tens;
